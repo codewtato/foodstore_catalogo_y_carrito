@@ -50,3 +50,10 @@ La aplicación estará disponible en la URL que aparezca en tu terminal (general
 ├── vite.config.ts            # Configuración de Vite
 └── README.md                 # Este archivo
 ```
+
+## Link al video de YouTube
+
+```text
+https://youtu.be/1jd7qIaboiU?si=gd6SViJwnt8i9kW3
+
+```
