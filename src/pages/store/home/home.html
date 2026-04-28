@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=food_bank,search" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Sora:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store - Home</title>
+    <script type="module" src="./home.ts"></script>
+</head>
+<body>
+    <header>
+        <div class="marca">
+            <span class="material-symbols-outlined icono-header">food_bank</span>
+            <h1 class="titulo"><span class="titulo-food">Food</span><span class="titulo-store">Store</span></h1>
+        </div>
+        <div class="nav-header">
+            <a class="link-header link-activo" href="#">Catálogo</a>
+            <a class="link-header link-carrito-container" href="../cart/cart.html" id="carrito">
+                Carrito
+                <span class="badge-carrito" id="badge-carrito">0</span>
+            </a>
+        </div>
+    </header>
+    <main>
+    <div class="contenedor-principal">
+        <div>
+            <aside class="categorias">
+                <h3 class="titulo-cat">Categorías</h3>
+                <ul class="ul-list-cat">
+                <li><button class="btn-categoria">Todos los productos</button></li>
+                <li><button class="btn-categoria">Pizzas</button></li>
+                <li><button class="btn-categoria">Hamburguesas</button></li>
+                <li><button class="btn-categoria">Bebidas</button></li>
+                <li><button class="btn-categoria">Postres</button></li>
+                <li><button class="btn-categoria">Empanadas</button></li>
+                <li><button class="btn-categoria">Ensaladas</button></li>
+                </ul>
+            </aside>
+        </div>
+        <div class="area-catalogo">
+            <div class="contenedor-buscador">
+            <span class="material-symbols-outlined icono-lupa">search</span>
+            <input type="text" name="buscar-producto" id="buscar-producto" class="input-buscar-producto" placeholder="Buscar productos...">
+            </div>
+            <div class="grilla-productos">
+            </div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
